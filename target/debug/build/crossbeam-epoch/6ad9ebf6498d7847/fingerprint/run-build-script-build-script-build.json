@@ -1,0 +1,1 @@
+{"rustc":14950897143821917783,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[13869114390706723416,"build_script_build",false,8582323913543321467]],"local":[{"RerunIfChanged":{"output":"debug/build/crossbeam-epoch/6ad9ebf6498d7847/run/stdout","paths":["build.rs"]}}],"rustflags":["--cfg","procmacro2_semver_exempt"],"config":0,"compile_kind":0}
