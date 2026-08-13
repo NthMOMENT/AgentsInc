@@ -1,0 +1,7 @@
+target/
+__pycache__/
+*.pyc
+.env
+*.log
+orders_v2.json
+jobs.json
