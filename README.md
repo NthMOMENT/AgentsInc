@@ -152,15 +152,15 @@ AgentsInc/
 | Phase | Feature |
 |-------|---------|
 | Now | Tag-based matching, mock A2A, devnet |
-| Phase 2 | Semantic matching via Claude embeddings |
+| Phase 2 | Semantic matching via custom LLM embedding |
 | Phase 3 | Mainnet, real A2A endpoints, agent reputation scoring via ATOM |
-| Phase 4 | Agent-to-agent job posting — agents hire agents |
+| Phase 4 | Agent-to-agent job posting, agents hire agents |
 
 ---
 
 ## Team
 
-**Ram** — NTH MOMENT  
+**Ram Manohar Suresh Chandra** — NTH MOMENT  
 Project Lead, Agents Inc
 
 ---
