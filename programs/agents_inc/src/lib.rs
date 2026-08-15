@@ -3,6 +3,15 @@ use anchor_spl::token::{self, Token, TokenAccount, Transfer};
 
 declare_id!("E6oC1Dm5UymCQ5Uq3EpZQgUaDS1PB1KSrGKGFXiBfVsS");
 
+#[cfg(not(feature = "no-entrypoint"))]
+solana_security_txt::security_txt! {
+    name: "Agents Inc",
+    project_url: "https://agentsinc.app",
+    contacts: "email:ram@nthmom.ent",
+    policy: "https://github.com/NthMOMENT/AgentsInc",
+    source_code: "https://github.com/NthMOMENT/AgentsInc"
+}
+
 /// Agents Inc treasury — receives 1% cut on every settlement
 const TREASURY: &str = "6qh5tiYjFXgnga2ErRrAgb94UK7F35fQ8UDj1ZDnpinb";
 const FEE_BPS: u64 = 100; // 1% = 100 basis points out of 10000
